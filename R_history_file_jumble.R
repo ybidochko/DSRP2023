@@ -501,13 +501,5 @@ max(age
         library(ggplot2)
         ggplot(data = mpg, aes(x = hwy)) + geom_density()
         library(ggplot2)
-        ggplot(data = mpg, aes(x = hwy)) + geom_density()
-        install.packages(c("usethis", "credentials"))
-        ## set your name and email
-        usethis::use_git_config(user.name = "Yuriy Bidochko",
-                                user.email = "ybidochko@gmail.com")
-        ## create a personal access token (PAT) for authentication
-        usethis::create_github_token()
-        ## set personal access token
-        credentials::set_github_pat("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")
+        ggplot(data = mpg, aes(x = hwy)) + geom_density()                           
         
