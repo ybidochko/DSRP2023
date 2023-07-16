@@ -22,7 +22,7 @@ filter(starwars, species == "Human")
 ## save to a new R object
 humans <- filter(starwars, species == "Human")
 humans
-filter(humans, esx == "male")
+filter(humans, sex == "male")
 
 ## filter multiple columns at once
 filter(starwars, species == "Human", sex == "male")
